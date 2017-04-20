@@ -1,0 +1,27 @@
+.classpath/
+.gradle/
+.history/
+.idea/
+.idea_modules/
+.project/
+.settings/
+*build/
+classes/
+dist/
+logs/
+opt/
+out/
+target/
+temp/
+tmp/
+
+# Files
+*.class
+*.hprof
+*.ids
+*.iml
+*.ipr
+*.iws
+*.log
+*.war
+.DS_Store
