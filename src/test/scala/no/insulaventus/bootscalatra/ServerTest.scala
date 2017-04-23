@@ -1,4 +1,4 @@
-package no.nordea.tokenexchangepoc
+package no.insulaventus.bootscalatra
 
 import org.junit.runner.RunWith
 import org.scalatest.FunSuite

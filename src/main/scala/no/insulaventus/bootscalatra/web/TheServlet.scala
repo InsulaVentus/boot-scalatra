@@ -1,8 +1,7 @@
-package no.nordea.tokenexchangepoc.web
+package no.insulaventus.bootscalatra.web
 
 import org.scalatra.ScalatraServlet
 import org.slf4j.{Logger, LoggerFactory}
-
 
 class TheServlet extends ScalatraServlet {
 
@@ -10,10 +9,6 @@ class TheServlet extends ScalatraServlet {
 
   get("/") {
     logger.info("Returning some - Yeah!")
-
-    Thread.sleep(5000L)
-
     "Some"
   }
-
 }

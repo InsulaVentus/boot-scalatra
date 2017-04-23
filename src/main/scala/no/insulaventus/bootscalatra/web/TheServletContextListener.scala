@@ -1,4 +1,4 @@
-package no.nordea.tokenexchangepoc.web
+package no.insulaventus.bootscalatra.web
 
 import javax.servlet.{ServletContextEvent, ServletContextListener}
 

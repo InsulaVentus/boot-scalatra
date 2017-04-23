@@ -1,6 +1,6 @@
-package no.nordea.tokenexchangepoc
+package no.insulaventus.bootscalatra
 
-import no.nordea.tokenexchangepoc.web.TheServlet
+import no.insulaventus.bootscalatra.web.TheServlet
 import org.slf4j.{Logger, LoggerFactory}
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean
 
 object Application {
   def main(args: Array[String]) {
-    SpringApplication.run(classOf[Application], args:_*)
+    SpringApplication.run(classOf[Application], args: _*)
   }
 }
 
